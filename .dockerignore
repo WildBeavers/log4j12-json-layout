@@ -1,0 +1,8 @@
+.gitignore
+/.git/
+/.idea/
+/target/
+Dockerfile
+LICENSE
+log4j12-json-layout-*
+README.md

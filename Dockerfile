@@ -3,4 +3,9 @@
 #
 ################################################################################
 
-FROM amazonlinux:2
+FROM maven:3.6-jdk-11-slim
+
+COPY src /src
+COPY pom.xml pom.xml
+
+RUN mvn package

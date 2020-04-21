@@ -1,1 +1,3 @@
 /.idea/
+/target/
+log4j12-json-layout-*
