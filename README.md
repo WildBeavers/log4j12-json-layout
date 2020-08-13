@@ -30,9 +30,10 @@ log4j.appender.myAppender.layout.DatePattern=yyyy-MM-dd HH:mm:ss,SSS
 * JSON parser: [FasterXML/jackson-core](https://github.com/FasterXML/jackson-core/)  
   This project has been created for supporting JSON logging for
   Kafka and ZooKeeper. Both projects already contain the required libraries.
-* JAVA Version: 11  
+* JAVA Version: 8 
   * a long supported Java version has to be selected => LTS version required
   * a recent but not bleeding edge version is required
+  * a version which can be used by legacy enterprise applications is required
 
 ## Building
 
